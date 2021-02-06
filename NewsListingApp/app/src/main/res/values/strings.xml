@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewsListingApp</string>
+    <string name="global_news">Global News</string>
+    <string name="bookmarknews">BookMarkNews</string>
+    <string name="popilar_news">Popular News</string>
+    <string name="top_news">Top News</string>
+    <string name="loading">Loading...</string>
+</resources>
