@@ -106,10 +106,10 @@ class NewsListingActivity : AppCompatActivity(), KodeinAware {
                 newsImg.visibility = VISIBLE
                 descriptionTv.visibility = VISIBLE
                 descriptionTv.text = it.get(0).description
-                headerTv.visibility = VISIBLE
-                headerTv.text = getString(R.string.popilar_news)
                 adapter.setNewsList(it)
                 bookmarkImg.visibility = VISIBLE
+              //  headerTv.visibility = VISIBLE
+                headerTv.text = getString(R.string.popilar_news)
 
                 val item = NewsItem(
                     it.get(0).title,
